@@ -1,4 +1,4 @@
-import p028
+import readtxt
 
-print(p028.comp1("ATGTTATAG"))
-
+l = readtxt.read_json("read_sample.json")
+print(l)
